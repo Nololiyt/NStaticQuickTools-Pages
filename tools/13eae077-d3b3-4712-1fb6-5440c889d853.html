@@ -4,15 +4,9 @@
     <title>
         Random Integer Generator
     </title>
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?de7e8f54e867fffffa0bc48c0788f8bc";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
+    
+<script type="module" crossorigin src="assets/13eae077-d3b3-4712-1fb6-5440c889d853.html.4ebe6b9b.js"></script>
+  <link rel="modulepreload" href="assets/baiduStatics.4945de2f.js">
 </head>
 
 <body>
@@ -20,34 +14,8 @@
     <div>
         Here is a random integer generator.
     </div>
+    <script src="./13eae077-d3b3-4712-1fb6-5440c889d853.ts"></script>
     <div>
-        <script>
-            function theFunction() {
-                var min = parseInt(document.getElementById("input1").value);
-                var max = parseInt(document.getElementById("input2").value);
-                if (min > max) {
-                    var temp = max;
-                    max = min;
-                    min = temp;
-                }
-                if (min == max) {
-                    max = max + 1;
-                }
-                var count = parseInt(document.getElementById("input3").value);
-                var result = "[";
-                for (var i = 0; i < count; i++) {
-                    result += Math.floor(Math.random() * (max - min)) + min;
-                    result += ", ";
-                }
-                result = result.substring(0, result.length - 2);
-                result += "]";
-                document.getElementById("input1").value = min;
-                document.getElementById("input2").value = max;
-                document.getElementById("input3").value = count;
-                document.getElementById("output").innerHTML = result;
-            }
-        </script>
-
         <ul>
             <li>
                 Min(inclusive): <input id="input1" type="number" value="1" />
