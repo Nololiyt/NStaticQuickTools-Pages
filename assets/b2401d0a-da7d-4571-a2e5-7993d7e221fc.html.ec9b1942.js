@@ -1,1 +1,0 @@
-import"./baiduStatics.23a8132b.js";import{v as t}from"./vendor.5a9bfe5e.js";function e(){var e='"'+t()+'"';document.getElementById("output").innerHTML=e}document.getElementById("input").onclick=e,e();
